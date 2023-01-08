@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+
+}
+:root {
+    --verydark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    scroll-behavior: smooth;
+    text-t
+}

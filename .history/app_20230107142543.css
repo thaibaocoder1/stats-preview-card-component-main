@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 1px);
+    background-color: var(--very-dark-blue-main-bg);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+:root {
+    --very-dark-blue-main-bg: hsl(233, 47%, 7%);
+    --dark-desaturated-blue-card-bg: hsl(244, 38%, 16%);
+    --soft-violet-accent: hsl(277, 64%, 61%);
+    --white-main-heading-stats: hsl(0, 0%, 100%);
+    --white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+.card{
+    width: 100rem;
+    background-color: var(--dark-desaturated-blue-card-bg);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.card__left, .card__right {
+    width: 50%;
+}
+.card .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+    background-size: cover;
+}
+.card__left {
+    padding: 5rem 5rem 4.5rem 5rem;
+}
+.card__left .card-heading {
+    color: var(--white-main-heading-stats);
+    font-size: 3.5rem;
+}
+.card__left .card-markup {
+    color: var(--soft-violet-accent);
+}
+.card__left .card-desc {
+    padding-top: 5rem;
+    color: var(--white-main-paragraph);
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+.card-row {
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.card-row .card-col-3 {
+    flex-basis: calc((100% / 3) - 1rem);
+}
+.card-row .card-col-3 .card-col-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.card-row .card-col-3 .card-col-text {
+    text-transform: uppercase;
+    color: var(--white-main-paragraph);
+}
+.card .card__right {
+    
+}
